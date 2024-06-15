@@ -1,0 +1,142 @@
+.container{
+ 
+  height: 100%;
+  width: 100%;
+
+}
+h1{
+  text-align: center;
+  font-size: 3rem;
+}
+
+.add-contact{
+  border: 2px solid rgb(15, 1, 19);
+  border-radius: 20px;
+  margin: 20px;
+  padding: 10px;
+  background-image: linear-gradient(to bottom right,black,rgb(34, 31, 31));
+  box-shadow: -1px 1px 7px 10px rgba(27, 4, 18, 0.2)
+  
+  
+}
+.add-action{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3.5%;
+}
+
+
+.add-btn,
+.remove-btn{
+  border: none;
+  font-weight: 700;
+  font-size: 25px;
+  border-radius: 20px;
+  width: 50px;
+  height: 30px;
+  background-color: #923cb5;
+  background-image: linear-gradient(147deg, #b11010 0%, #000000 74%);
+  color: rgb(158, 156, 156);
+  
+}
+.add-btn:hover,
+.remove-btn:hover{
+  background-color: #923cb5;
+background-image: linear-gradient(147deg, #000000 20%, #b11010 74%);
+  box-shadow: 4px 2px 2px 1px rgba(1, 1, 5, 0.2);}
+
+.add-contact-container{
+  margin-top: 20px;
+  
+  
+  
+}
+h2{
+  text-align: center;
+}
+.form{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2%;
+}
+.number{
+width: 200px;
+
+}
+.name{
+  width: 100px;
+ 
+  
+}
+.name,.number{
+  border: none;
+  border-radius: 9px; 
+  height: 30px;
+  box-shadow: -1px 1px 4px 3px rgba(51, 49, 49, 0.2);
+  background-image: linear-gradient(to bottom right,black,rgb(34, 31, 31));  
+  color: aliceblue;
+  
+}
+.submit-btn{
+  border: none;
+  border-radius: 20px; 
+  height: 30px;
+  box-shadow: -1px 1px 5px 6px rgba(1, 1, 5, 0.2);
+  background-color: #923cb5;
+  background-image: linear-gradient(147deg, #b11010 0%, #000000 74%);
+  color: aliceblue;
+}
+
+.contacts-list{
+  display: flex;
+  justify-content: center;
+  
+}
+
+.clear-btn{
+  width: 20%;
+  height: 30px;
+  font-size: 17px;
+  margin: 3%;
+  border: none;
+  border-radius: 30px;
+  background-color: #923cb5;
+  background-image: linear-gradient(147deg, #b11010 0%, #000000 74%);
+  color: aliceblue;
+}
+
+.contacts-info{
+
+width: 93%;
+margin-top: 20px;
+display: flex;
+flex-direction: column;
+gap: 5px;
+
+}
+.contacts-ind{
+  border: 1px solid rgb(8, 5, 5);
+  display: flex;
+  justify-content: space-around;
+  border-radius: 30px;
+  background-image: linear-gradient(to bottom right,black,rgb(34, 31, 31));
+  
+  
+  
+}
+.contacts-ind:hover{
+  box-shadow: -1px 1px 7px 10px rgba(27, 4, 18, 0.2)
+}
+.p{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  
+}
+.remove-item{
+background:transparent;
+border: none;
+color: aliceblue;
+}
