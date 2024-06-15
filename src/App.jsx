@@ -25,14 +25,14 @@ function App() {
     setLists([]);
   };
   const handlebutton = (ind) => {
-<<<<<<< HEAD
+
     let newlist =[...lists]
     newlist.splice(ind,1)
     setLists(newlist)
-=======
+
     setLists(lists.splice(ind, 1));
     console.log(ind)
->>>>>>> 5171aa4cf4df3a51cc106650a660a6f2befb5380
+
   };
   return (
     <>
